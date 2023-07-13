@@ -2,6 +2,7 @@
  the shape mentioned at the beginning of the question after normalization,
  using only DDL statements. You must continue normalization until none of
  the dependencies are violated. It is not allowed to be NULL in any of the columns.*/
+
 CREATE TABLE capacities (
     level int NOT NULL,
     capacity bigint NOT NULL,
